@@ -8261,3 +8261,139 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* CUSTOM */
+
+#fh5co-team .fw-row > div{
+  opacity: 0;
+}
+
+.fw-main-row h2{
+  font-family: "Roboto Slab", arial, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 1em;
+
+  text-align: center;
+}
+#fh5co-team h3{
+  position: relative;
+
+  color: #000;
+  font-family: "Roboto Slab", arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+#fh5co-team h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: #e32929;
+}
+
+#fh5co-team i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#fh5co-team a{
+  color: #868f90;
+}
+#fh5co-team a:hover{
+  text-decoration: none;
+  color: #000;
+}
+.fw-col-xs-12.fw-col-sm-4{
+  display: grid;
+  grid-template-columns: 25% auto;
+  align-items: start;
+
+  padding: 15px;
+}
+#fh5co-services p {
+  grid-column: 2 / 3;
+}
+#fh5co-services .fw-iconbox{
+  padding: 0;
+}
+#fh5co-services .fw-iconbox-image{
+  float: left;
+  width: 20%;
+  opacity: 0;
+}
+#fh5co-services .fw-iconbox-image i{
+  font-size: 40px;
+  color: #e32929;
+}
+
+.fw-iconbox-aside{
+  width: 70%;
+  float: right;
+  text-align: left;
+}
+#fh5co-services .fw-iconbox h3{
+  margin-top: 0;
+  font-size: 18px;
+
+  color: #000;
+  font-family: "Roboto Slab", arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.pagination{
+  text-align: center;
+  width: 100%;
+}
+.pagination ul{
+  display: flex;
+  list-style: none;
+}
+.pagination li{
+  margin: 10px;
+}
+.pagination li span,
+.pagination li a{
+  display: block;
+
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+
+  border: 1px solid grey;
+  border-radius: 3%;
+  box-sizing: border-box;
+}
+.pagination li span:hover,
+.pagination li a:hover,
+.pagination li span:focus,
+.pagination li a:focus{
+  box-shadow: inset 0 0 5px black;
+  transition: all 500ms;
+}
+.pagination li span.current{
+  color: whitesmoke;
+  background-color: #e32929;
+  border-color: darkgreyS;
+}
+
+.pll-parent-menu-item .sub-menu{
+  display: none;
+  list-style: none;
+}
+.pll-parent-menu-item:hover .sub-menu,
+.pll-parent-menu-item .sub-menu:hover{
+  display: block;
+}
